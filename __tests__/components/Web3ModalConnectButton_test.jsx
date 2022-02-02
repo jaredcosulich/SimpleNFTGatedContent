@@ -5,8 +5,8 @@ const { act } = renderer;
 
 import { ethers } from "ethers";
 
-import TWCircleSpinner from '../../components/TWCircleSpinner'
-import TWButton from '../../components/TWButton'
+import TWCircleSpinner from '../../components/tailwind/TWCircleSpinner'
+import TWButton from '../../components/tailwind/TWButton'
 
 describe("Web3ModalConnectButton", () => {
   const provider = {}

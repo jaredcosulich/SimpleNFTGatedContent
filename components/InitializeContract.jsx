@@ -3,9 +3,12 @@ import {
 } from '../lib'
 
 import {
-  TWCircleSpinner,
   MintOrGatedContent
 } from '.'
+
+import {
+  TWCircleSpinner
+} from './tailwind'
 
 import { useEffect, useState } from 'react';
 

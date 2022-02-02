@@ -1,7 +1,7 @@
 import {
   TWCircleSpinner,
   TWButton
-} from '.'
+} from './tailwind'
 
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";

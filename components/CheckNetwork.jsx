@@ -1,8 +1,11 @@
 import {
-  TWCircleSpinner,
   WrongEthereumNetworkMessage,
   InitializeContract
 } from '.'
+
+import {
+  TWCircleSpinner
+} from './tailwind'
 
 import { useEffect, useState } from 'react';
 

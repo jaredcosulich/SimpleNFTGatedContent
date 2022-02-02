@@ -1,8 +1,11 @@
 import {
-  TWCircleSpinner,
   Web3ModalConnectButton,
   CheckNetwork
 } from '.'
+
+import {
+  TWCircleSpinner
+} from './tailwind'
 
 import { useEffect, useState } from 'react';
 import Web3Modal from "web3modal";

@@ -3,10 +3,13 @@ import {
 } from '../lib'
 
 import {
-  TWCircleSpinner,
   PlaceholderGatedComponent,
   MintNFTWithPrice
 } from '.'
+
+import {
+  TWCircleSpinner
+} from './tailwind'
 
 import { useState, useEffect } from 'react';
 

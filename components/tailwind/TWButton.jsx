@@ -1,4 +1,4 @@
-import classMapMerge from '../lib/classMapMerge'
+import classMapMerge from '../../lib/classMapMerge'
 
 const TWButton = (props) => {
   const { classMap, ...reactProps } = props;

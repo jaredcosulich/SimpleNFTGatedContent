@@ -3,7 +3,7 @@ import MintNFTWithPrice from "../../components/MintNFTWithPrice.jsx";
 import renderer from 'react-test-renderer';
 const { act } = renderer;
 
-import TWCircleSpinner from '../../components/TWCircleSpinner'
+import TWCircleSpinner from '../../components/tailwind/TWCircleSpinner'
 
 import mintWithStatusMessages from '../../lib/mintWithStatusMessages'
 jest.mock('../../lib/mintWithStatusMessages')

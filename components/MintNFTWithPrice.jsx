@@ -3,9 +3,12 @@ import {
 } from '../lib'
 
 import {
-  TWCircleSpinner,
   MintPriceAndButton
 } from '.'
+
+import {
+  TWCircleSpinner
+} from './tailwind'
 
 import { useState } from 'react';
 

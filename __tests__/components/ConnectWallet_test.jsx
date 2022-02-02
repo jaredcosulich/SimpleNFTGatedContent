@@ -3,7 +3,7 @@ import ConnectWallet from "../../components/ConnectWallet.jsx";
 import renderer from 'react-test-renderer';
 const { act } = renderer;
 
-import TWCircleSpinner from '../../components/TWCircleSpinner'
+import TWCircleSpinner from '../../components/tailwind/TWCircleSpinner'
 
 import CheckNetwork from '../../components/CheckNetwork';
 jest.mock('../../components/CheckNetwork')

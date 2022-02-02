@@ -3,7 +3,7 @@ import InitializeContract from "../../components/InitializeContract.jsx";
 import renderer from 'react-test-renderer';
 const { act } = renderer;
 
-import TWCircleSpinner from '../../components/TWCircleSpinner'
+import TWCircleSpinner from '../../components/tailwind/TWCircleSpinner'
 
 import MintOrGatedContent from '../../components/MintOrGatedContent'
 jest.mock('../../components/MintOrGatedContent')

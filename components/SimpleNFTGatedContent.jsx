@@ -1,8 +1,11 @@
 import {
-  TWFullScreen,
-  TWCenteredContent,
   ConnectWallet
 } from '.'
+
+import {
+  TWFullScreen,
+  TWCenteredContent,
+} from './tailwind'
 
 import {
   SimpleURIAndPriceNFTWithWithdrawalRoyalty
