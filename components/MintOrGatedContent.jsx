@@ -1,6 +1,6 @@
 import {
   providerSignerHasToken
-} from '../lib'
+} from 'nod-eth'
 
 import {
   PlaceholderGatedComponent,

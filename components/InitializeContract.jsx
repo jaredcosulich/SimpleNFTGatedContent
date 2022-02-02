@@ -1,6 +1,6 @@
 import {
   instantiateContract
-} from '../lib'
+} from 'nod-eth'
 
 import {
   MintOrGatedContent
