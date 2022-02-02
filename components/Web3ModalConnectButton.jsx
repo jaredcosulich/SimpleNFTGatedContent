@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
 const Web3ModalConnectButton = (props) => {
-  const { web3Modal, onConnect, ...twButtonProps } = props
+  const { web3Modal, onConnect, children, ...twButtonProps } = props
   const [cachedProvider, setCachedProvider] = useState(web3Modal.cachedProvider)
 
   const onConnectLocal = async () => {
@@ -15,8 +15,8 @@ const Web3ModalConnectButton = (props) => {
       const instance = await web3Modal.connect();
       const provider = new ethers.providers.Web3Provider(instance);
       
-      if (props.onConnect) {
-        props.onConnect(provider)
+      if (onConnect) {
+        onConnect(provider)
       }
   
     } catch (e) {
@@ -47,7 +47,7 @@ const Web3ModalConnectButton = (props) => {
           onClick={onConnectLocal}
           {...twButtonProps}
         >
-          { props.children }
+          { children }
         </TWButton>
       }
       {!web3Modal && 
@@ -61,7 +61,8 @@ const Web3ModalConnectButton = (props) => {
 }
 
 Web3ModalConnectButton.defaultProps = {
-  children: 'Connect Wallet' 
+  children: 'Connect Wallet',
+  web3Modal: {}
 }
 
 export default Web3ModalConnectButton;
