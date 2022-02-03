@@ -1,5 +1,5 @@
-The ConnectWallet React component wraps the [web3modal](https://github.com/Web3Modal/web3modal) library with a basic configuration and a convenient button to connect your wallet.
+This component provides the basic plumbing for interacting with an NFT smart contract.
 
-It can be customized to provide more wallet options.
+It allows you to connect with a wallet using web3modal, query a contract to get it's minting price, and mint it.
 
-Once a wallet is connected any future component can be rendered. By default this component leverages a [CheckNetwork](http://localhost:3000/component/CheckNetwork) subcomponent that will verify that the wallet is on the correct network before proceeding.
+Once minted the user will gain access to gated content.
