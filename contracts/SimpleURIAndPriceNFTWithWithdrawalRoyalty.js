@@ -1,6 +1,6 @@
 const SimpleURIAndPriceNFTWithWithdrawalRoyalty = {
   network: "rinkeby",
-  address: "0xBA810A1950E524a7Dc5a3DDE282Ff559a1C187D0",
+  address: "0x538d777A79fFd83e3b939008544c6dC71a48fA53",
   abi: [
     {
       "type": "constructor",

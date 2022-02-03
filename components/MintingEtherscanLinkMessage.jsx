@@ -25,6 +25,7 @@ const MintingEtherscanLinkMessage = ({ provider, transaction }) => {
       {href &&
         <p>
           You can view your pending transaction on 
+          &nbsp;
           <a 
             href={href} 
             target='_blank' 
